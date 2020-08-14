@@ -1,0 +1,59 @@
+body {
+  font: 10pt sans;
+}
+table {
+  border-collapse: collapse;
+  font-size:10pt;
+  margin: 0;
+  text-align:center;
+  border: 1px solid black;
+}
+table td, th {
+  border: 1px solid black;
+}
+form {
+  border: 1px solid black;
+  padding: 3px 0 3px 3px;
+  margin-bottom: 3px;
+}
+#import_xls {
+  float:left;
+  margin: 3px;
+  height: auto;
+}
+#node_list {
+  display: none;
+  float:left;
+  margin: 3px;
+  height: auto;
+}
+#edge_list {
+  display: none;
+  float:left;
+  margin: 3px;
+  height: auto;
+}
+#mynetwork {
+  display: block;
+  float:left;
+  width: 1200px;
+  height: 1200px;
+  margin: 3px;
+  border: 1px solid lightgray;
+}
+#config {
+  display: block;
+  float:left;
+  width: 360px;
+  margin: 3px;
+  height: 600px;
+}
+.grey{
+  color: grey;
+}
+input[type=number]{
+  width: 100px;
+}
+label{
+  margin-bottom: 7px;
+}
