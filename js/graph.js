@@ -13,7 +13,7 @@ function Graph(nodes, edges, idcanvas, idconfig) {
         };
     var undo = [];
     var options = {
-            locale: 'ru',
+            //locale: 'ru',
             nodes: {
                 shape: 'dot',
                 //size: 16,
