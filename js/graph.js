@@ -1,9 +1,10 @@
-/*
-*   draw graph
-*   @array      nodes => [{id: id_node, "label": "label_node", "group": id_group, value: size_node}]
-*   @array      edges => [{"from": id_node_from, "to": id_node_to, value: width_edge}]
-*   @idcanvas   idcanvas
-*/
+/**
+ *   draw graph
+ *   @array      nodes => [{"id": id_node, "label": "label_node", "group": id_group, "value": size_node}]
+ *   @array      edges => [{"from": id_node_from, "to": id_node_to, "value": width_edge}]
+ *   @idcanvas   id canvas
+ *   @idconfig   id config
+ */
 function Graph(nodes, edges, idcanvas, idconfig) {
     var container = document.getElementById(idcanvas);
     var conf = document.getElementById(idconfig);
