@@ -21,4 +21,5 @@ XLSRead and phpspreadsheet are used for working with XLS files.
 # Exemples
 
 **index.html** - simple graph from arrays and basic actions with graph
+
 **index.php** - simple graph from XLS file and basic actions with graph
