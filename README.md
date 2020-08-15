@@ -17,3 +17,8 @@ XLSRead and phpspreadsheet are used for working with XLS files.
 В своей работе использует библиотеки VIS.JS, html2canvas, JQuery. 
 
 Для работы с XLS файлами используется XLSRead и phpspreadsheet.
+
+# Exemples
+
+**index.html** - simple graph from arrays and basic actions with graph
+**index.php** - simple graph from XLS file and basic actions with graph
